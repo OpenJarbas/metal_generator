@@ -1,6 +1,15 @@
 # metal_generator
 generate metal band/song names, per genre!
 
+- [metal_generator](#metal-generator)
+- [pre trained models](#pre-trained-models)
+  * [model](#model)
+- [samples](#samples)
+  * [heavy metal bands](#heavy-metal-bands)
+  * [stoner metal bands](#stoner-metal-bands)
+  * [black metal bands](#black-metal-bands)
+  * [viking metal song names](#viking-metal-song-names)
+- [Credits](#credits)
 
 LSTM trained on [metal_dataset](https://github.com/JarbasAl/metal_dataset)
 
@@ -84,3 +93,11 @@ hand picked examples that i liked bellow
         before the silence
         life and death
         sword in hand
+        
+        
+# Credits
+
+[metal-archives](https://www.metal-archives.com/) - the enclyclopedia of metal, where the dataset was downloaded from
+[pythonic-metal](https://github.com/ijmbarr/pythonic-metal) - inspiration to gather the [metal_dataset](https://github.com/JarbasAl/metal_dataset)
+[char-rbm](https://colinmorris.github.io/blog/dreaming-rbms) - inspiration, i previously used this for the same purpose
+[keras examples](https://github.com/keras-team/keras/tree/master/examples) - i pretty much copied the lstm example over
