@@ -2,6 +2,8 @@
 generate metal band/song names, per genre!
 
 - [metal_generator](#metal-generator)
+- [install](#install)
+- [usage](#usage)
 - [pre trained models](#pre-trained-models)
   * [model](#model)
 - [samples](#samples)
@@ -11,11 +13,24 @@ generate metal band/song names, per genre!
   * [viking metal song names](#viking-metal-song-names)
 - [Credits](#credits)
 
-LSTM trained on [metal_dataset](https://github.com/JarbasAl/metal_dataset)
+keras LSTM trained on [metal_dataset](https://github.com/JarbasAl/metal_dataset)
 
-to train edit train.py to point to the filename.txt to be used
+# Install
 
-to sample edit sample.pt to choose a model
+TODO requirements.txt / setup.py / packaging / release on pip
+
+
+````bash
+pip install tensorflow-gpu
+pip install keras
+````
+
+
+
+# Usage
+
+- to train edit train.py to point to the filename.txt to be used
+- to sample edit sample.pt to choose a model
 
 
 # pre trained models
@@ -97,7 +112,7 @@ hand picked examples that i liked bellow
         
 # Credits
 
-[metal-archives](https://www.metal-archives.com/) - the enclyclopedia of metal, where the dataset was downloaded from
-[pythonic-metal](https://github.com/ijmbarr/pythonic-metal) - inspiration to gather the [metal_dataset](https://github.com/JarbasAl/metal_dataset)
-[char-rbm](https://colinmorris.github.io/blog/dreaming-rbms) - inspiration, i previously used this for the same purpose
-[keras examples](https://github.com/keras-team/keras/tree/master/examples) - i pretty much copied the lstm example over
+- [metal-archives](https://www.metal-archives.com/) - the enclyclopedia of metal, where the dataset was downloaded from
+- [pythonic-metal](https://github.com/ijmbarr/pythonic-metal) - inspiration to gather the [metal_dataset](https://github.com/JarbasAl/metal_dataset)
+- [char-rbm](https://colinmorris.github.io/blog/dreaming-rbms) - inspiration, i previously used this for the same purpose
+- [keras examples](https://github.com/keras-team/keras/tree/master/examples) - i pretty much copied the lstm example over
