@@ -10,6 +10,7 @@ generate metal band/song names, per genre!
   * [heavy metal bands](#heavy-metal-bands)
   * [stoner metal bands](#stoner-metal-bands)
   * [black metal bands](#black-metal-bands)
+  * [power metal bands](#power-metal-bands)
   * [viking metal song names](#viking-metal-song-names)
 - [Credits](#credits)
 
@@ -25,12 +26,34 @@ pip install tensorflow-gpu
 pip install keras
 ````
 
-
-
 # Usage
 
-- to train edit train.py to point to the filename.txt to be used
-- to sample edit sample.pt to choose a model
+check [examples folder](./examples)
+
+````python
+from metal_generator import MetalGenerator
+from os.path import join, dirname
+
+name = "power_metal_bands"
+corpus = join(dirname(__file__), "metal_dataset", "{dataset}.txt".format(dataset=name))
+model_folder = join(dirname(__file__), "models")
+metal = MetalGenerator(corpus)
+metal.train()
+metal.save(name, model_folder)
+````
+
+````python
+from metal_generator import MetalGenerator
+from os.path import join, dirname
+
+name = "power_metal_bands"
+corpus = join(dirname(__file__), "metal_dataset", "{dataset}.txt".format(dataset=name))
+model_folder = join(dirname(__file__), "models")
+metal = MetalGenerator(corpus)
+metal.load(name, model_folder)
+print(metal.generate())
+
+````
 
 
 # pre trained models
@@ -94,7 +117,22 @@ hand picked examples that i liked bellow
         dark ritual
         daimonion
         lupine fall
-        
+   
+## power metal bands
+
+        fated light
+        astronomikon
+        asylum pyre
+        neptunian horizon
+        albion kross
+        sinister force
+        dead ring
+        arida vortex
+        purgatory
+        pylaghian
+        delliance fall
+
+             
 ## viking metal song names
 
         cold heart of winter
