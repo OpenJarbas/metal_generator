@@ -1,0 +1,39 @@
+----- Generating with seed: ""
+----- diversity: 1.1
+----- Generating with seed: "acerdos mortuus
+sachsenhausen
+sacradis
+
+----- Generating with seed: "ator
+maniak
+manic disease
+manifestation
+
+----- Generating with seed: "r pestilence
+withering soul
+wolfenhords
+
+----- Generating with seed: "ortrait
+dark requiem
+dark ritual
+
+----- Generating with seed: "or
+dagorlad
+daimonion
+damask
+damned scre
+
+----- Generating with seed: "inus sathanas
+dommedagssalme
+domos
+domus"
+
+----- Generating with seed: "ic hymn
+lungorthin
+lupan
+lupine fall
+
+----- Generating with seed: "n
+alva xolotl
+alverg
+alwaar

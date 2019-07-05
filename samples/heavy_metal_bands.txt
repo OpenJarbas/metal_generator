@@ -1,0 +1,40 @@
+----- diversity: 1.1
+----- Generating with seed: "lcatraz
+alcatrazz
+alchemy
+alegory
+
+----- Generating with seed: "wn
+savant
+saxon king
+scaffold
+
+----- Generating with seed: "d
+torok
+torquemada
+torrid
+torturess
+
+----- Generating with seed: "er
+vempire
+vendavall
+vendetta
+
+----- Generating with seed: "da
+aic miquina
+aices
+aillion
+air borne
+
+----- Generating with seed: "enth seal
+seventh sin
+severance
+severity"
+
+----- Generating with seed: "y
+iron head
+iron horse
+
+----- Generating with seed: "tra mayhem
+under prexion
+unholy cadaver
